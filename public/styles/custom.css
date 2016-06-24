@@ -1,9 +1,56 @@
+html {
+    position: relative;
+    min-height: 100%;
+    background-color: #b8ae9c;
+}
+body {
+    margin: 0 0 100px; /* bottom = footer height */
+   background-color: #b8ae9c !important; 
+}
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+}
 header {
 
-  background: url('../images/background.jpg') no-repeat center center fixed;
+  background: url('../images/backgrounds.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 100vh;
+
+}
+
+header, section {
+
+  height: 80vh;
+}
+
+.header1{
+
+color: white;
+  font-size: 4em;
+}
+.header-1{
+ padding-top: 50px
+}
+
+footer, #footer, .navbar.navbar-default.navbar-fixed-top{
+
+	background: #595241;
+}
+
+.col-half-offset{
+    margin-left:4.166666667%
+}
+
+.content{
+  opacity: 0.8;
+  background-color: #FFF;
+}
+.bordernone {
+border: 0 !important;
 }

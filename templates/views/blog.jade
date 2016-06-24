@@ -24,11 +24,11 @@ mixin post(post)
 
 block intro
 	.container
-		h1= data.category ? data.category.name : 'Blog'
+		h1= data.category ? data.category.name : ''
 
 block content
-	.container: .row
-		.col-sm-8.col-md-9
+	.container: .row.content
+		.col-sm-12.col-md-12
 			if filters.category && !data.category
 				h3.text-muted Invalid Category.
 			else
@@ -42,7 +42,7 @@ block content
 							strong #{data.posts.total}
 							|  posts.
 					else
-						h4.text-weight-normal Showing #{utils.plural(data.posts.results.length, '* post')}.
+						//-h4.text-weight-normal Showing #{utils.plural(data.posts.results.length, '* post')}.
 					.blog
 						each post in data.posts.results
 							+post(post)

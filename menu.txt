@@ -1,10 +1,7 @@
-- home
-- over -SPORTVERENIGING naam-
-- lestijden
-- inschrijven
-- teams
-- blog
-- workshops
-- gallerij 
-- vragen
-- contact
+- home  (1)
+- over -SPORTVERENIGING naam-  (1)
+- teams (1)
+- blog (4)
+- gallerij (5)
+- vragen	(3)
+- contact & lestijden (workshops) (2)
